@@ -3,6 +3,7 @@ The following was discovered as part of building this project:
 
 * The original package name 'com.techstackengineer.springboot.tutorials.search-api' is invalid and this project uses 'com.techstackengineer.springboot.tutorials.searchapi' instead.
 
+
 # Getting Started
 
 ### Reference Documentation
