@@ -36,8 +36,8 @@ public class TutorialControllerTest {
 
     @Test
     public void testSearchTutorials() throws Exception {
-        Tutorial tutorial1 = new Tutorial(0001L, "Java Basics", "Introduction to Java programming language.", "Java", LocalDate.now());
-        Tutorial tutorial2 = new Tutorial(0002L, "Spring Framework", "Guide to the Spring framework for enterprise applications.", "Spring", LocalDate.now());
+        Tutorial tutorial1 = new Tutorial(0001L, "Java Basics", "Introduction to Java programming language.", "Java", "2024-11-03");
+        Tutorial tutorial2 = new Tutorial(0002L, "Spring Framework", "Guide to the Spring framework for enterprise applications.", "Spring", "2024-11-03");
         PageImpl page = new PageImpl<>(List.of(tutorial1, tutorial2));
         when(tutorialService.findTutorialsByPagingAndSorting(any(RequestCriteria.class))).thenReturn(page);
 

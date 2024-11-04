@@ -34,8 +34,8 @@ class TutorialServiceTest {
 
     @BeforeAll
     public static void setUp() {
-        Tutorial tutorial1 = new Tutorial(0001L, "Java Basics", "Introduction to Java programming language.", "Java", LocalDate.now());
-        Tutorial tutorial2 = new Tutorial(0002L, "Spring Framework", "Guide to the Spring framework for enterprise applications.", "Spring", LocalDate.now());
+        Tutorial tutorial1 = new Tutorial(0001L, "Java Basics", "Introduction to Java programming language.", "Java", "2024-11-03");
+        Tutorial tutorial2 = new Tutorial(0002L, "Spring Framework", "Guide to the Spring framework for enterprise applications.", "Spring", "2024-11-03");
         page = new PageImpl<>(List.of(tutorial1, tutorial2));
     }
 

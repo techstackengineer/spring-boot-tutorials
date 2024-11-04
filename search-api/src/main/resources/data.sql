@@ -1,4 +1,4 @@
-INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISH_DATE) VALUES
+INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISHED_DATE) VALUES
 (0001, 'Java Basics', 'Introduction to Java programming language.', 'Java', '2024-01-15'),
 (0002, 'Spring Framework', 'Guide to the Spring framework for enterprise applications.', 'Spring', '2024-02-20'),
 (0003, 'Spring Boot Essentials', 'Learn the basics of Spring Boot for rapid development.', 'Spring', '2024-03-10'),
@@ -14,7 +14,7 @@ INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISH_DATE) VALUES
 (0013, 'Software Architecture Basics', 'Introduction to software architecture and patterns.', 'Architecture', '2025-01-15'),
 (0014,'Clean Code Principles', 'Best practices for writing clean and maintainable code.', 'Java', '2025-02-10');
 
-INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISH_DATE) VALUES
+INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISHED_DATE) VALUES
 (0015, 'API Design Principles', 'Learn the best practices for designing APIs.', 'API Design', '2025-03-01'),
 (0016, 'API Development with REST', 'Step-by-step guide to developing RESTful APIs.', 'API Development', '2025-03-15'),
 (0017, 'Introduction to REST', 'Understanding REST architecture and principles.', 'REST', '2025-04-01'),
@@ -35,7 +35,7 @@ INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISH_DATE) VALUES
 (0032, 'Advanced API Design', 'Deep dive into advanced API design strategies and techniques.', 'API Design', '2025-12-20'),
 (0033, 'RESTful API Security', 'Implementing security measures for RESTful APIs.', 'REST', '2026-01-10');
 
-INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISH_DATE) VALUES
+INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISHED_DATE) VALUES
 (0034, 'DevOps Fundamentals', 'Introduction to DevOps and its practices.', 'DevOps', '2024-09-13'),
 (0035, 'Jenkins Basics', 'Getting started with Jenkins for continuous integration.', 'CI/CD', '2024-09-13'),
 (0036, 'CI/CD Pipelines', 'Building and managing CI/CD pipelines.', 'CI/CD', '2024-09-13'),
@@ -61,7 +61,7 @@ INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISH_DATE) VALUES
 (0056, 'iOS Swift Programming', 'Swift programming for iOS app development.', 'iOS', '2024-09-13'),
 (0057, 'Android UI Design', 'Designing user interfaces for Android applications.', 'Android', '2024-09-13');
 
-INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISH_DATE) VALUES
+INSERT INTO TUTORIALS (ID, TITLE, DESCRIPTION, CATEGORY, PUBLISHED_DATE) VALUES
 (0058, 'Introduction to Docker', 'Basics of containerization with Docker.', 'DevOps', '2024-09-13'),
 (0059, 'Kubernetes Fundamentals', 'Introduction to Kubernetes for container orchestration.', 'DevOps', '2024-09-13'),
 (0060, 'Continuous Deployment Strategies', 'Strategies for effective continuous deployment.', 'CI/CD', '2024-09-13'),

@@ -41,6 +41,7 @@ public class TutorialController {
                                                 @RequestParam(required = false) String filter,
                                                 @RequestParam(required = false) String category) {
         RequestCriteria requestCriteria = new RequestCriteria(query, page, size, sort, sortOrder, filter, category);
+
         Page<Tutorial> tutorialPage = tutorialService.findTutorialsByPagingAndSorting(requestCriteria);
         SearchResponse searchResponse = new SearchResponse(tutorialPage.getContent(), tutorialPage.getTotalPages(),
                 tutorialPage.getTotalElements(), tutorialPage.getNumber());
