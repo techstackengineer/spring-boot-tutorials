@@ -24,7 +24,7 @@ public class TutorialService {
         PageRequest pageRequest = PageRequest.of(requestCriteria.getPage(), requestCriteria.getSize());
         if(requestCriteria.getSort() != null) {
             Sort.Direction direction = Sort.Direction.ASC;
-            if ("DSC".equalsIgnoreCase(requestCriteria.getSortOrder())) {
+            if ("DESC".equalsIgnoreCase(requestCriteria.getSortOrder())) {
                 direction = Sort.Direction.DESC;
             }
             pageRequest = PageRequest.of(requestCriteria.getPage(), requestCriteria.getSize(),

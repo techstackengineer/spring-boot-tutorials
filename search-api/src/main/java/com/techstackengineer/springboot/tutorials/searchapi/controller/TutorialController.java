@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Tutorial Controllers
  */
 @RestController
-@RequestMapping("/api/v1.0/tutorials")
+@RequestMapping("/api/v1/tutorials")
 public class TutorialController {
 
     @Autowired
